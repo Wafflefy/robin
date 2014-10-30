@@ -13,7 +13,7 @@ func ThrowMsg(msg int) {
 
 	messages := [...]string{
 		"Welcome Batman!\n\n version: v0.1.0\n author: Raphael Amorim\n ",
-		"Hey Batman, I've founded a error!\n\n Error: Invalid command\n Suggestion: use `robin help` to see all commands\n",
+		"Hey Batman, I've founded an error!\n\n Error: Invalid command\n Suggestion: use `robin help` to see all commands\n",
 		"Hey Batman, please sent a valid parameter!"}
 
 	Println("[Robin]", messages[msg])
